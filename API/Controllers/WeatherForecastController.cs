@@ -35,5 +35,10 @@ namespace API.Controllers
             })
             .ToArray();
         }
+        [HttpPost]
+        public void Add(string name)
+        {
+            //Poslovna logika
+        }
     }
 }
