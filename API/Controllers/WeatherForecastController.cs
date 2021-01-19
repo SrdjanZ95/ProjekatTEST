@@ -21,7 +21,10 @@ namespace API.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-        }
+        }/// <summary>
+        /// ////
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
